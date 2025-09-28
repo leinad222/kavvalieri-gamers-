@@ -309,12 +309,21 @@ header {
   color: black;
   transition: 0.3s;
   margin-top: 10px;
-  
+
 }
 .submit-btn:hover {
   background-color: transparent;
   color: white;
   box-shadow: 0 0 15px white;
+  opacity: 0.8;
+}
+footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: #222;
+  color: #aaa;
+  margin-top: 50px;
 }
 
 /* Responsive tweaks */
