@@ -1,0 +1,16 @@
+CREATE DATABASE kavvalieri_gamers;
+
+USE kavvalieri_gamers;
+
+CREATE TABLE messages (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100),
+  message TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE subscribers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(100) UNIQUE,
+  subscribed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
