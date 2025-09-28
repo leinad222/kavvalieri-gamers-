@@ -37,13 +37,13 @@ if ($stmt->execute()) {
       $mail->Host       = 'smtp.gmail.com';   // Gmail SMTP server
       $mail->SMTPAuth   = true;
       $mail->Username   = 'kuromipd480@gmail.com'; // your Gmail
-      $mail->Password   = 'your-app-password';   // Gmail App Password
+      $mail->Password   = 'manga7358';   // Gmail App Password
       $mail->SMTPSecure = 'tls';
       $mail->Port       = 587;
 
       // Recipients
-      $mail->setFrom('yourgmail@gmail.com', 'Kavvalieri Gamers');
-      $mail->addAddress('yourgmail@gmail.com'); // send to yourself
+      $mail->setFrom('kuromipd480@gmail.com', 'Kavvalieri Gamers');
+      $mail->addAddress('kuromipd480@gmail.com'); // send to yourself
       $mail->addReplyTo($email, $name);
 
       // Content
