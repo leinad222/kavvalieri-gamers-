@@ -308,6 +308,8 @@ header {
   cursor: pointer;
   color: black;
   transition: 0.3s;
+  margin-top: 10px;
+  
 }
 .submit-btn:hover {
   background-color: transparent;
